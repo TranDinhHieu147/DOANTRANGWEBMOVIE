@@ -23,21 +23,21 @@ const Footer = () => {
               <FaMapMarkerAlt />
               <div className='cta-text'>
                 <h4>Địa Chỉ</h4>
-                <span>103 Nguyễn Hữu Dật, Hải Châu, Đà Nẵng</span>
+                <span>556 Núi Thành, Hòa Cường Nam, Hải Châu, Đà Nẵng</span>
               </div>
             </div>
             <div className='single-cta'>
               <FaPhoneAlt />
               <div className='cta-text'>
                 <h4>Liên Hệ</h4>
-                <span>98765432100</span>
+                <span>1900 1000</span>
               </div>
             </div>
             <div className='single-cta'>
               <FaEnvelopeOpen />
               <div className='cta-text'>
                 <h4>Email</h4>
-                <span>mail@info.com</span>
+                <span>CinemaDAU.mail@info.com</span>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
               <div className='footer-text'>
                 <p>
-                  Nằm trong top 5 cụm rạp lớn nhất toàn cầu và là cụm rạp lớn nhất Việt
+                  Nằm trong cụm rạp lớn nhất toàn cầu và là cụm rạp lớn nhất Việt
                   Nam. Mục tiêu của chúng tôi là trở thành hình mẫu điển hình đóng góp cho
                   sự phát triển của ngành điện ảnh.
                 </p>
@@ -128,7 +128,7 @@ const Footer = () => {
             <div className='copyright-text'>
               <p>
                 Copyright © 2022, All Right Reserved{' '}
-                <a href='https://github.com/yoshivn1203'>Yoshi</a>
+                <a href='https://www.galaxycine.vn'>Cinema</a>
               </p>
             </div>
           </div>

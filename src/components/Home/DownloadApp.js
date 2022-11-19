@@ -27,7 +27,7 @@ const DownloadApp = () => {
         <div className='downloading'>
           <img src={logo} alt='' />
           <div className='text'>
-            <p>Cyber Cinema</p>
+            <p>Cinema DAU</p>
             <p>Đang tải...</p>
           </div>
           <img src={taiApp} alt='' />

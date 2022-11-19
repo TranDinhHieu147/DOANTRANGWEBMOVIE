@@ -90,8 +90,8 @@ const Wrapper = styled.div`
     align-items: center;
 
     img {
-      margin-right: 10px;
-      width: 150px;
+      margin-right: 15px;
+      width: 80px;
       @media only screen and (max-width: 600px) {
         width: 100px;
         margin-right: 0;

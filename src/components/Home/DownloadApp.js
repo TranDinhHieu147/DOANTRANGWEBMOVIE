@@ -19,7 +19,7 @@ const DownloadApp = () => {
         </p>
         <div className='store-img'>
           <img src={appstore} alt='' />
-          {/* <img src={google} alt='' /> */}
+       
         </div>
       </div>
       <div className='phone-img'>

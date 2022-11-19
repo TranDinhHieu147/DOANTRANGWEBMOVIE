@@ -93,7 +93,7 @@ const Wrapper = styled.div`
       margin-right: 15px;
       width: 80px;
       @media only screen and (max-width: 600px) {
-        width: 100px;
+        width: 60px;
         margin-right: 0;
       }
     }

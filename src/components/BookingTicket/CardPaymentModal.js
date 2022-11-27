@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { closeModal } from '../../features/uiSlice';
 import StripeCheckout from './StripeCheckout';
 import payMethods from '../../assets/pay-methods.png';
+
 const CardPaymentModal = ({ handleBooking }) => {
   const dispatch = useDispatch();
   return (

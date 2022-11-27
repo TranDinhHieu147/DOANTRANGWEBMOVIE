@@ -8,10 +8,11 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import formatDate from '../../utils/formatDate';
 export default function BookingHistory({ userInfo }) {
-  // console.log(userInfo.thongTinDatVe);
+// console.log(userInfo.thongTinDatVe);
 
   const history = userInfo.thongTinDatVe.map((item) => {
-    const { maVe, tenPhim, ngayDat, danhSachGhe } = item;
+    
+    const { maVe, tenPhim, ngayDat, danhSachGhe, giaVe, thoiLuongPhim } = item;
     const listGhe = danhSachGhe.reduce((list, item) => {
       list.push(item.tenGhe);
       return list;
@@ -21,6 +22,8 @@ export default function BookingHistory({ userInfo }) {
       tenPhim,
       ngayDat,
       Rap: danhSachGhe[0].tenHeThongRap,
+      giaVe,
+      thoiLuongPhim,
       listGhe,
     };
   });
@@ -33,6 +36,8 @@ export default function BookingHistory({ userInfo }) {
             <TableCell>Tên Phim</TableCell>
             <TableCell>Rạp</TableCell>
             <TableCell>Ngày Đặt</TableCell>
+            <TableCell>Thành Tiền</TableCell>
+            <TableCell>Thời Lượng Phim</TableCell>
             <TableCell>Số Ghế</TableCell>
           </TableRow>
         </TableHead>
@@ -48,6 +53,8 @@ export default function BookingHistory({ userInfo }) {
               <TableCell>{item.tenPhim}</TableCell>
               <TableCell>{item.Rap}</TableCell>
               <TableCell>{formatDate(item.ngayDat)}</TableCell>
+              <TableCell>{item.giaVe}</TableCell>
+              <TableCell>{item.thoiLuongPhim}</TableCell>
               <TableCell>{item.listGhe.join(', ')}</TableCell>
             </TableRow>
           ))}

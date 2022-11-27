@@ -8,7 +8,7 @@ import logo from '../assets/new-logo.png';
 import { RiMenu2Fill } from 'react-icons/ri';
 import { useSelector } from 'react-redux';
 import { OutlineButton } from '../components/UI/Button';
-
+import Quanly from './quanly';
 const items = [
   {
     title: 'Tài Khoản',
@@ -48,6 +48,11 @@ const items = [
     title: 'Báo Cáo Lỗi',
     icon: <BsFillBugFill />,
     path: 'report-bug',
+  },
+  {
+    title: 'Quản lý doanh thu',
+    icon: <BsFillBugFill />,
+    path: 'quanly',
   },
 ];
 

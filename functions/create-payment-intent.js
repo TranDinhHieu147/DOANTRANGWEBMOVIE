@@ -1,4 +1,4 @@
-//domain/.netlify/functions/create-payment-intent
+
 const REACT_APP_STRIPE_SECRET_KEY =
   'sk_test_51KpppUAyTlZOsQoKy9fYYcn0RWpr3sz48BgGXhQw3K5ZzLFOeZhODwkDNPyg4l4UNPzV6skfU5NqIC2JEZuh2LMB00mO0Fnc7v';
 

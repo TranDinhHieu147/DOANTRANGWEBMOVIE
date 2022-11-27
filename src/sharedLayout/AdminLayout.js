@@ -45,7 +45,7 @@ const items = [
     path: 'support',
   },
   {
-    title: 'Báo Cáo Lỗi',
+    title: 'Báo Cáo doanh thu',
     icon: <BsFillBugFill />,
     path: 'report-bug',
   },
@@ -114,7 +114,7 @@ export default function AdminLayout() {
             <RiMenu2Fill />
           </button>
           <h2>Dashboard</h2>
-          <h3>Hello {userInfo.taiKhoan}</h3>
+          <h3>Xin Chào {userInfo.taiKhoan}</h3>
         </div>
         <div className='content'>
           <Outlet />

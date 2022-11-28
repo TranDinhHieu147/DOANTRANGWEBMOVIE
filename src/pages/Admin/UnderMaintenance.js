@@ -29,10 +29,10 @@ const underMaintenance = () => {
           <TableHead>
             <TableRow>
               <TableCell>Mã Phim</TableCell>
-              <TableCell>Tên Phim</TableCell>
-              <TableCell>Hình Ảnh</TableCell>
-              <TableCell>Mô Tả</TableCell>
-              <TableCell>Ngày Khởi Chiếu</TableCell>
+              <TableCell>Mã vé</TableCell>
+              <TableCell>rạp</TableCell>
+              <TableCell>Ngày khởi chiếu</TableCell>
+              <TableCell>Thành tiền</TableCell>
               
             </TableRow>
           </TableHead>

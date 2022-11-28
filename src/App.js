@@ -27,6 +27,7 @@ import NoUserProtected from './protectedRoutes/NoUserProtected';
 import UserProtected from './protectedRoutes/UserProtected';
 import AdminProtected from './protectedRoutes/AdminProtected';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import ThuvienMovie from './components/Home/ThuvienMovie';
 
 function App() {
   const { isLoading } = useSelector((state) => state.ui);
@@ -46,6 +47,7 @@ function App() {
           <Route path='movies/:id' element={<MoviesDetails />} />
           <Route path='news' element={<News />} />
           <Route path='events' element={<Events />} />
+          <Route path='thuvien' element={<ThuvienMovie />} />
           <Route element={<UserProtected />}>
             <Route path='showTime/:id' element={<BookingTickets />} />
             <Route path='profile' element={<Profile />} />
@@ -64,6 +66,7 @@ function App() {
             <Route path='add-showtime' element={<AddShowTime />} />
             <Route path='support' element={<UnderMaintenance />} />
             <Route path='report-bug' element={<UnderMaintenance />} />
+
           </Route>
         </Route>
         <Route path='*' element={<PageNotFound />} />

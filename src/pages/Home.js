@@ -8,7 +8,7 @@ import useFetch from '../hooks/useFetch';
 import ButtonBackToTop from '../components/ButtonBackToTop';
 import DownloadApp from '../components/Home/DownloadApp';
 import Chatbot from '../components/Home/Chatbot';
-
+import Events from '..pages/Events';
 const Home = () => {
   const { state: movies } = useFetch(getMovies);
   const { state: cinemas } = useFetch(getCinemas);
@@ -52,7 +52,14 @@ const Home = () => {
               </form>
             </div>
           </div>
+          
           {movies && <MoviesList movies={filteredMovies} myRef={myRef} />}
+          <div className='khuyenmai'>
+            <h2>Khuyến Mãi</h2>
+            <Events/>
+          </div>
+         
+          {/* <News/> */}
           <DownloadApp />
         </div>
         <Chatbot/>

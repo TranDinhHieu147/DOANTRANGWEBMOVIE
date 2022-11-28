@@ -96,7 +96,7 @@ const CheckoutForm = ({ handleBooking }) => {
             VND
           </p>
           <p>
-            Mã thẻ test: <span style={{ marginLeft: '0.5rem' }}>4242 4242 4242 4242</span>{' '}
+            Mã thẻ test: <span style={{ marginLeft: '0.5rem' }}>963 963 963 963</span>{' '}
           </p>
         </article>
       )}

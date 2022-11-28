@@ -62,7 +62,7 @@ const SignIn = () => {
           </Form.Item>
           <Form.Item>
             <Form.Item name='remember' valuePropName='' noStyle>
-              <Checkbox> Remember me</Checkbox>
+              <Checkbox> Ghi nhớ mật khẩu</Checkbox>
             </Form.Item>
           </Form.Item>
 

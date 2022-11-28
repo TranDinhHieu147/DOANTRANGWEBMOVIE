@@ -1,14 +1,16 @@
 import React from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
-import { useDispatch } from 'react-redux';
+import Sidebar from './Sidebar';
 
 
-const ThuvienMovie = (props) => {
+const ThuvienMovie =  () => {
+  
 
     return (
         <div>
-   
+            <Header/> 
+            <Footer/>
         </div>
     );
 }

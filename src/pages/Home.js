@@ -7,6 +7,7 @@ import { getCinemas, getMovies } from '../services/moviesApi';
 import useFetch from '../hooks/useFetch';
 import ButtonBackToTop from '../components/ButtonBackToTop';
 import DownloadApp from '../components/Home/DownloadApp';
+import Chatbot from '../components/Home/Chatbot';
 
 const Home = () => {
   const { state: movies } = useFetch(getMovies);
@@ -54,6 +55,7 @@ const Home = () => {
           {movies && <MoviesList movies={filteredMovies} myRef={myRef} />}
           <DownloadApp />
         </div>
+        <Chatbot/>
       </Wrapper>
     </>
   );

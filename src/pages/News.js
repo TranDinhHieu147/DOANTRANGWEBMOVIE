@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { Tabs } from "antd";
 
-const News = () => {
+export const News = () => {
   const { TabPane } = Tabs;
   return (
     <Wrapper>
@@ -358,7 +358,7 @@ export const Wrapper = styled.div`
 }
 
 .news{
-  color: #000;
+  color: white;
   margin: 0 auto;
   max-width: 1000px;
   padding: 3em 0;

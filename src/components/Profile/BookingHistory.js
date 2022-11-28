@@ -8,7 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import formatDate from '../../utils/formatDate';
 export default function BookingHistory({ userInfo }) {
-// console.log(userInfo.thongTinDatVe);
+//  console.log(userInfo.thongTinDatVe);
 
   const history = userInfo.thongTinDatVe.map((item) => {
     
@@ -49,8 +49,8 @@ export default function BookingHistory({ userInfo }) {
             >
               <TableCell component='th' scope='row'>
                 {item.maVe}
-              </TableCell>
-              <TableCell>{item.tenPhim}</TableCell>
+              </TableCell>       
+              <TableCell>{item.tenPhim}</TableCell>        
               <TableCell>{item.Rap}</TableCell>
               <TableCell>{formatDate(item.ngayDat)}</TableCell>
               <TableCell>{item.giaVe}</TableCell>

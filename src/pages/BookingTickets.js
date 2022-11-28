@@ -148,7 +148,7 @@ const BookingTickets = () => {
             <p>
               Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi.<br></br>
               Thông tin vé đã được gửi đến email của bạn<br></br>
-              Chúc bạn có một buổi xem phim vui vẻ , hẹn gặp các bạn tại rạp.<br></br>
+              Chúc bạn có một buổi xem phim vui vẻ, hẹn gặp các bạn tại rạp.<br></br>
             </p>
           </Box>
         );

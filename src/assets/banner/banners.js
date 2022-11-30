@@ -4,30 +4,31 @@ const w500Image = 'https://image.tmdb.org/t/p/w500';
 const banners = [
   {
     maPhim: 10727,
-    backdrop_path: `${originalImage}/etP5jwlwvkNhwe7jnI2AyA6ZKrR.jpg`,
-    poster_path: `${w500Image}/rFljUdOozFEv6HDHIFpFvcYW0ec.jpg`,
-    title: 'Project Gemini',
+    backdrop_path: `${originalImage}/54PmeEzQMvpojpJBku61ZGQnWUX.jpg`,
+    poster_path: `${w500Image}/xtn8fnJrmaNA4zd4VYARO51syxd.jpg`,
+    title: 'ONE PIECE FILM RED',
     overview:
-      'Tín Hiệu Diệt Vong kể về sau khi tên lửa Gemini được bắn lên không trung , nó đột nhiên mất tích. Bẵng đi 1 thời gian, các nhà thiên văn nhận được tín hiệu từ Gemini báo hiệu sắp có nguy hiểm xảy đến với Trái Đất. Họ ngay lập tức lên đường tìm hiểu lý do.',
-    trailer: 'https://www.youtube.com/embed/Cx5etN2nl-c',
+      'Bối cảnh của One Piece Film Red là một hòn đảo âm nhạc Elegia - nơi diva nổi tiếng bậc nhất thế giới tên Uta thực hiện buổi biểu diễn trực tiếp đầu tiên trước công chúng.',
+    trailer: 'https://www.youtube.com/embed/L-aFL-bX1ao',
+    
   },
   {
     maPhim: 8056,
-    backdrop_path: `${originalImage}/7WJjFviFBffEJvkAms4uWwbcVUk.jpg`,
-    poster_path: `${w500Image}/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg`,
-    title: 'Jungle Cruise',
+    backdrop_path: `${originalImage}/uu4On1xXiiDGeYwHSbp7BSQBTGv.jpg`,
+    poster_path: `${w500Image}/uLluouDdIqqtB5Yrvdvt8DzAEs6.jpg`,
+    title: 'Chiến Binh Báo Đen: Wakanda Bất Diệt',
     overview:
-      'Nhà khoa học Lily cùng em trai MacGregor vì muốn tìm ra những cánh hoa Nguyệt Lệ trong truyền thuyết để bào chữa thuốc chữa trị cho mọi người nên họ đã đến Brazil, xuôi theo dòng Amazon và truy tìm thứ mà ai cũng cho là hoang đường này.',
-    trailer: 'https://www.youtube.com/embed/f_HvoipFcA8',
+      'Dường như Black Panther/ T’Challa đã qua đời trong một sự kiện nào đó. Shuri (Letitia Wright), Okoye (Danai Gurira) lẫn nữ hoàng Ramonda (Angela Bassett) đều đau đớn và không cầm được nước mắt. Sau sự ra đi của Chadwick Boseman, Kevin Feige quyết định không chọn diễn viên mới cho nhân vật này mà chọn một người khác kế tục danh hiệu Black Panther. Có vẻ, cái chết của T’Challa đã dẫn đến cuộc chiến giữa Wakanda và Atlantis - một vương quốc sống dưới mặt nước do Namor (Tenoch Huerta) lãnh đạo. Trong truyện tranh, Namor là một nhân vật quan trọng khi góp mặt trong nhiều nhóm siêu anh hùng. Atlantis sở hữu nhiều công nghệ tiên tiến không kém cạnh Wakanda, đồng thời còn có khả năng liên kết và điều khiển các sinh vật biển',
+    trailer: 'https://www.youtube.com/embed/sKX4zA52B9c',
   },
   {
     maPhim: 9013,
-    backdrop_path: `${originalImage}/198vrF8k7mfQ4FjDJsBmdQcaiyq.jpg`,
-    poster_path: `${w500Image}/1yppMeTNQwDrzaUH4dRCx4mr8We.jpg`,
-    title: 'Avatar: The Way of Water',
+    backdrop_path: `${originalImage}/fP5wcmD3m1AiZuFXMDWAZQ47fWq.jpg`,
+    poster_path: `${w500Image}/qydle2TgTz5Qq0bTeKItG5kcEwS.jpg`,
+    title: 'NCT DREAM THE MOVIE: IN A DREAM',
     overview:
-      'Jake Sully và Neytiri, giờ đã thành đôi và nguyện sẽ ở bên nhau. Tuy nhiên, cả hai buộc phải rời khỏi nhà và khám phá những miền đất mới trên mặt trăng Pandora, cũng chính là lúc những mối nguy cũ quay lại cản trở họ.',
-    trailer: 'https://www.youtube.com/embed/oeRG9A6bDdY',
+      'Bộ phim đầu tay với màn trình diễn bùng nổ của 7 thành viên NCT trong một buổi hòa nhạc solo thứ hai “ NCT DREAM TOUR THE DREAM SHOW2: In A DREAM tại Olympic Seoul - sân vận động lớn nhất Hàn Quộc và là sân khấu trong mơ của nhiều nghệ sĩ Hàn Đây là một sự kiện không thể bỏ qua với những cảnh hậu trường chưa được công bố, các đoạn phỏng vấn độc quyền phía sau sân khấu và định hướng của từng thành viên về tương lai.',
+    trailer: 'https://www.youtube.com/embed/iWzrREPHE_M',
   },
 ];
 

@@ -12,18 +12,9 @@ const headerNav = [
     path: '/',
   },
   {
-    display: 'Tin Tức',
-    path: '/news',
-  },
-  {
     display: 'Khuyến Mãi',
     path: '/events',
   },
-  {
-    display: 'Thư viện phim',
-    path: '/thuvien',
-  },
-
 ];
 
 const Header = () => {
@@ -88,7 +79,7 @@ const Wrapper = styled.div`
   transition: height 0.3s ease, background-color 0.3s ease;
   &.shrink {
     height: 5rem;
-    background-color: var(--darkest-transparent);
+    
   }
   .logo {
     display: flex;
@@ -110,9 +101,7 @@ const Wrapper = styled.div`
     height: 100%;
     padding: 0 2rem;
 
-    @media only screen and (max-width: 600px) {
-      /* justify-content: center; */
-    }
+  
   }
   .header__nav,
   .login {
@@ -132,7 +121,7 @@ const Wrapper = styled.div`
         width: 0;
         transition: width 0.5s ease;
         height: 2px;
-        background-color: var(--primary-yellow);
+        background-color: var(--primary-green);
       }
       &.active::after,
       &:hover::after {
@@ -150,7 +139,7 @@ const Wrapper = styled.div`
     text-transform: none;
     font-family: 'Montserrat';
     &:hover {
-      color: var(--primary-yellow);
+      color: var(--primary-green);
     }
   }
 
@@ -161,7 +150,7 @@ const Wrapper = styled.div`
       left: 0;
       height: 5rem;
       width: 100%;
-      background-color: var(--primary-black);
+      background-color: var(--primary-green);
       padding: 0 2rem;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 

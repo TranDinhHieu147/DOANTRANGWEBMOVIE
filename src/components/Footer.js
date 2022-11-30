@@ -70,16 +70,16 @@ const Footer = () => {
               </div>
               <ul>
                 <li>
-                  <Link to='#'>Chính Sách</Link>
+                  <Link to='#'>Chính Sách Khách Hàng</Link>
                 </li>
                 <li>
-                  <Link to='#'>Điều Khoản</Link>
+                  <Link to='#'>Bảo Mật Thông Tin</Link>
                 </li>
                 <li>
                   <Link to='#'>Dịch Vụ</Link>
                 </li>
                 <li>
-                  <Link to='#'>Bình Luận</Link>
+                  <Link to='#'>Điều Khoản Sử Dụng</Link>
                 </li>
                 <li>
                   <Link to='#'>Tuyển Dụng</Link>
@@ -127,7 +127,7 @@ const Footer = () => {
           <div className='row-copyright'>
             <div className='copyright-text'>
               <p>
-                Copyright © 2022, All Right Reserved{' '}
+                Copyright © 2022, ALL RIGHTS RESERVED.{' '}
                 <a href='https://www.galaxycine.vn'>Cinema</a>
               </p>
             </div>
@@ -140,7 +140,6 @@ const Footer = () => {
 
 const Wrapper = styled.div`
   &.footer-section {
-    /* background: #151414; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg});
     position: relative;
     .container {
@@ -167,7 +166,7 @@ const Wrapper = styled.div`
     align-items: center;
   }
   .single-cta svg {
-    color: var(--primary-yellow);
+    color: var(--primary-blue);
     font-size: 2rem;
   }
   .cta-text {
@@ -251,7 +250,7 @@ const Wrapper = styled.div`
     bottom: -15px;
     height: 2px;
     width: 50px;
-    background: var(--primary-yellow);
+    background: var(--primary-green);
   }
   .footer-widget ul li {
     display: inline-block;
@@ -259,7 +258,7 @@ const Wrapper = styled.div`
     margin-bottom: 12px;
   }
   .footer-widget ul li a:hover {
-    color: var(--primary-yellow);
+    color: var(--primary-green);
   }
   .footer-widget ul li a {
     color: #fff;
@@ -274,31 +273,31 @@ const Wrapper = styled.div`
     padding: 14px 28px;
     background: #2e2e2e;
     border: 1px solid #2e2e2e;
-    color: #fff;
+    color: var(--primary-black);
     outline: none;
   }
   .subscribe-form button {
     position: absolute;
     right: 0;
-    background: var(--primary-yellow);
+    background: var(--primary-green);
     padding: 13px 20px;
-    border: 1px solid var(--primary-yellow);
+    border: 1px solid var(--primary-green);
     top: 0;
     cursor: pointer;
   }
   .subscribe-form button svg {
-    color: #fff;
+    color: var(--primary-black);
     font-size: 22px;
     transform: rotate(-6deg);
   }
   .copyright-area {
-    background: var(--primary-black);
+    background: var(--primary-white);
     padding: 1rem 0;
   }
   .copyright-text p {
     margin: 0;
     font-size: 1rem;
-    color: #fff;
+    color: var(--primary-black);;
   }
   .copyright-text p a {
     color: var(--primary-yellow);

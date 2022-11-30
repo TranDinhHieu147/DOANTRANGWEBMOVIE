@@ -8,7 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import formatDate from '../../utils/formatDate';
 export default function BookingHistory({ userInfo }) {
-//  console.log(userInfo.thongTinDatVe);
+//console.log(userInfo.thongTinDatVe);
 
   const history = userInfo.thongTinDatVe.map((item) => {
     

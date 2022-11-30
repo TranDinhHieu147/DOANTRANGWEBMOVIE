@@ -166,7 +166,7 @@ const Wrapper = styled.div`
       filter: drop-shadow(4px 8px 12px rgb(3, 3, 3));
       opacity: 1;
       p {
-        color: var(--primary-yellow);
+        color: var(--primary-white);
       }
     }
   }

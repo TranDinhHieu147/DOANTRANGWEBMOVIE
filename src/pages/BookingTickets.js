@@ -104,19 +104,6 @@ const BookingTickets = () => {
               onClick={handleCardPayment}
             >
               <FaCcVisa />
-          {/* //   style={{
-          //     borderRadius: 35,
-          //     padding: '0.75rem 2rem',
-          //     fontSize: '1rem',
-          //     fontWeight: 'bold',
-          //     border: '2px solid',
-          //   }}
-          //   sx={{ mt: 4 }}
-          //   disabled={!checked}
-          //   variant='outlined'
-          //   onClick={handleBooking}
-          // >
-          //   <GiMoneyStack /> */}
               Thanh Toán Qua Thẻ
             </Button>
             <Box textAlign='left'>

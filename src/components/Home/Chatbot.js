@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 export const Chatbot = () => {
 
@@ -11,8 +11,6 @@ export const Chatbot = () => {
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
         window.kommunicate = m; m._globals = kommunicateSettings;
     })(document, window.kommunicate || {});
-
-
 
     return (
         <div>

@@ -39,7 +39,7 @@ const HeroSlideItem = ({ item, className }) => {
           <h2 className='title'>{item.title}</h2>
           <div className='overview'>{item.overview}</div>
           <div className='btns'>
-            <Button onClick={() => navigate(`movies/${item.maPhim}`)}>Đặt Vé</Button>
+            <Button onClick={() => navigate(`movies/${item.maPhim}`)}>Xem Thông Tin</Button>
             <OutlineButton onClick={() => dispatch(openModal(item.trailer))}>
               Xem trailer
             </OutlineButton>
@@ -73,7 +73,7 @@ const Wrapper = styled.div`
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
+      
     }
 
     &::after {

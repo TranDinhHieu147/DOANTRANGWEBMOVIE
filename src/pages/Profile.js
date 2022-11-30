@@ -7,6 +7,7 @@ import 'antd/lib/grid/style/index.css';
 
 import UserInfo from '../components/Profile/UserInfo';
 import BookingHistory from '../components/Profile/BookingHistory';
+
 import useFetch from '../hooks/useFetch';
 
 const Profile = () => {
@@ -20,7 +21,7 @@ const Profile = () => {
         </Tabs.TabPane>
         <Tabs.TabPane tab='Lịch Sử Đặt Vé' key='2'>
           {userInfo && <BookingHistory userInfo={userInfo} />}
-        </Tabs.TabPane>
+        </Tabs.TabPane>       
       </Tabs>
     </Wrapper>
   );

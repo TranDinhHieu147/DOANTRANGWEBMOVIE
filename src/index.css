@@ -45,13 +45,13 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: var(--primary-white);
-  /* background-color: #0f0f0f; */
+  
   background: rgb(22, 22, 22);
   background: linear-gradient(
     180deg,
-    rgb(18, 18, 18) 0%,
-    rgba(4, 11, 19, 1) 49%,
-    rgb(7, 40, 80) 100%
+    rgb(85, 110, 103) 0%,
+    rgb(85, 103, 102) 49%,
+    rgb(35, 49, 44) 100%
   );
 }
 
@@ -61,6 +61,7 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
   color: var(--primary-yellow);
 }
 

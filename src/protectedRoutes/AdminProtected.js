@@ -8,7 +8,7 @@ const AdminProtected = () => {
   const customId = 'notAdmin'; // add id to prevent duplicate toast.
   if (!userInfo || userInfo.maLoaiNguoiDung !== 'QuanTri') {
     toast.error(
-      'Bạn không có quyền truy cập trang này, xin vui lòng đăng nhập bằng tài khoản admin',
+      'Bạn không được quyền truy cập trang này, xin vui lòng đăng nhập bằng tài khoản admin',
       { toastId: customId }
     );
     return <Navigate to='/sign-in' />;

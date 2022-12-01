@@ -50,10 +50,10 @@ const Wrapper = styled.div`
     padding: 0.4rem 0.6rem;
     z-index: 2;
     font-size: 1.5rem;
-    color: var(--primary-yellow);
+    color: var(--primary-white);
     background-color: transparent;
     border-radius: 50%;
-    border: solid 2px var(--primary-yellow);
+    border: solid 2px var(--primary-white);
     cursor: pointer;
   }
 `;

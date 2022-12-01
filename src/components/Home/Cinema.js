@@ -186,7 +186,7 @@ const Wrapper = styled.div`
     box-shadow: none;
     flex: 1;
     padding: 0 1em;
-    background-color: var(--lighter-transparent);
+    background-color: var(--primary-black);
     color: var(--primary-white);
     font-size: 1rem;
     font-weight: bold;

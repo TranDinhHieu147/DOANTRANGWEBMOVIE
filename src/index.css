@@ -17,6 +17,7 @@
   --primary-gray: #696969;
   --secondary-gray: #a0a0a0;
   --dark-gray: #333333;
+  --xam-gray: #f2f1f1;
   --admin-gray: #1e1e1e;
   --light-gray: #c2c2c2;
   --primary-transparent: #00000060;
@@ -49,9 +50,9 @@ body {
   background: rgb(22, 22, 22);
   background: linear-gradient(
     180deg,
-    rgb(85, 110, 103) 0%,
-    rgb(85, 103, 102) 49%,
-    rgb(35, 49, 44) 100%
+    rgb(44, 45, 44) 0%,
+    rgb(36, 37, 37) 49%,
+    rgb(38, 39, 39) 100%
   );
 }
 

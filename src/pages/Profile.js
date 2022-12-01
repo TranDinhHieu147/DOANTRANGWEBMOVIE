@@ -38,7 +38,7 @@ export const Wrapper = styled.div`
     padding-right: 2rem;
   }
   .ant-tabs {
-    color: var(--primary-gray);
+    color: var(--primary-white);
   }
   .ant-tabs-tab {
     font-size: 1.2rem;
@@ -54,18 +54,18 @@ export const Wrapper = styled.div`
   .ant-form-item {
     padding: 0 2rem;
     label {
-      color: var(--primary-yellow);
+      color: var(--primary-white);
       font-size: 1rem;
     }
   }
   .ant-input-disabled {
-    background-color: var(--primary-gray) !important;
-    border-color: var(--primary-gray) !important;
-    color: var(--light-gray) !important;
+    background-color: var(--primary-white) !important;
+    border-color: var(--primary-white) !important;
+    color: var(--light-black) !important;
   }
   .ant-input-affix-wrapper-disabled {
-    background-color: var(--primary-gray) !important;
-    border-color: var(--primary-gray) !important;
+    background-color: var(--primary-white) !important;
+    border-color: var(--primary-white) !important;
   }
 `;
 

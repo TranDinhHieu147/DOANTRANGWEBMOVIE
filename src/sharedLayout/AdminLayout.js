@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { BsPersonFill, BsChevronDown, BsFillBugFill } from 'react-icons/bs';
-import { BiSupport } from 'react-icons/bi';
+
 import { RiMovieFill } from 'react-icons/ri';
 import logo from '../assets/new-logo.png';
 import { RiMenu2Fill } from 'react-icons/ri';
@@ -36,12 +36,6 @@ const items = [
         path: 'add-edit-movie',
       },
     ],
-  },
-
-  {
-    title: 'Hỗ Trợ',
-    icon: <BiSupport />,
-    path: 'support',
   },
   {
     title: 'Báo Cáo doanh thu',
@@ -129,7 +123,7 @@ const Wrapper = styled.div`
   grid-template-columns: auto 1fr;
   .main {
     width: 100%;
-    background-color: #0f0f0f;
+    background-color: var(--primary-white);
   }
 
   .title {
@@ -217,7 +211,7 @@ const Wrapper = styled.div`
     transition: max-height 0.3s linear;
   }
   .sidebar-item.open > .sidebar-content {
-    max-height: 200px; //change this value and the timer to get desired speed of transition.
+    max-height: 200px;
   }
 
   .sidebar-item.plain {
@@ -231,7 +225,7 @@ const Wrapper = styled.div`
     text-decoration: underline;
   }
   .sidebar-item.active {
-    color: var(--primary-yellow);
+    color: var(--primary-blue);
     font-weight: bold;
     text-decoration: underline;
   }

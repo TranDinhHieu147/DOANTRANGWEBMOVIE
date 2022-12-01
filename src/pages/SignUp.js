@@ -149,7 +149,7 @@ export const Wrapper = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg});
   height: 100vh;
   align-items: center;
-  color: var(--primary-yellow);
+  color: var(--primary-white);
 
   .card {
     width: 90%;
@@ -164,7 +164,7 @@ export const Wrapper = styled.div`
     .ant-form-item {
       padding: 0 2rem;
       label {
-        color: var(--primary-yellow);
+        color: var(--primary-white);
         font-size: 1rem;
       }
     }

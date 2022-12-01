@@ -11,7 +11,7 @@ import { useDispatch } from 'react-redux';
 import { finishLoading, loading } from '../../features/uiSlice';
 import formatDate from '../../utils/formatDate';
 
-const ShowTimeTable = ({ maPhim, flag }) => {
+export const ShowTimeTable = ({ maPhim, flag }) => {
   const [state, setState] = useState();
   const dispatch = useDispatch();
 

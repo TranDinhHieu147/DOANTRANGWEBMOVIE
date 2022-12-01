@@ -166,7 +166,7 @@ const Wrapper = styled.div`
       filter: drop-shadow(4px 8px 12px rgb(3, 3, 3));
       opacity: 1;
       p {
-        color: var(--primary-yellow);
+        color: var(--primary-white);
       }
     }
   }
@@ -186,7 +186,7 @@ const Wrapper = styled.div`
     box-shadow: none;
     flex: 1;
     padding: 0 1em;
-    background-color: var(--lighter-transparent);
+    background-color: var(--primary-black);
     color: var(--primary-white);
     font-size: 1rem;
     font-weight: bold;

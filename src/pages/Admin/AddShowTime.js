@@ -23,7 +23,7 @@ import { useDispatch } from 'react-redux';
 import { finishLoading, loading } from '../../features/uiSlice';
 import ShowTimeTable from '../../components/AddShowTime/ShowTimeTable';
 
-const AddShowTime = () => {
+ const AddShowTime = () => {
   const {
     state: { maPhim, tenPhim },
   } = useLocation();

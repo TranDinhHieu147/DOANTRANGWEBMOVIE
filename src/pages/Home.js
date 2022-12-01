@@ -38,7 +38,7 @@ const Home = () => {
           </div>
           {movies && <MovieSlide movies={movies} />}
           <div ref={myRef} className='section__header__center mb-2'>
-            <h1>Phim Đang Chiếu</h1>
+            <h2>Phim Đang Chiếu</h2>
             <div className='search'>
               <form className='search-form'>
                 <input
@@ -55,11 +55,11 @@ const Home = () => {
           
           {movies && <MoviesList movies={filteredMovies} myRef={myRef} />}
           <div className='khuyenmai'>
-            <h2>Khuyến Mãi</h2>
+            <h1>Khuyến Mãi</h1>
             <Events/>
           </div>
          
-          {/* <News/> */}
+         
           <DownloadApp />
         </div>
         <Chatbot/>

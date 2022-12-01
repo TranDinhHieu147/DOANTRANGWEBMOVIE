@@ -10,7 +10,6 @@ import {
   MoviesDetails,
   SignIn,
   SignUp,
-  News,
   Events,
   Profile,
   MoviesManagement,
@@ -27,7 +26,7 @@ import NoUserProtected from './protectedRoutes/NoUserProtected';
 import UserProtected from './protectedRoutes/UserProtected';
 import AdminProtected from './protectedRoutes/AdminProtected';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import ThuvienMovie from './components/Home/ThuvienMovie';
+
 
 function App() {
   const { isLoading } = useSelector((state) => state.ui);
@@ -45,9 +44,9 @@ function App() {
         <Route path='/' element={<HomeLayout />}>
           <Route index element={<Home />} />
           <Route path='movies/:id' element={<MoviesDetails />} />
-          <Route path='news' element={<News />} />
+          
           <Route path='events' element={<Events />} />
-          <Route path='thuvien' element={<ThuvienMovie />} />
+          
           <Route element={<UserProtected />}>
             <Route path='showTime/:id' element={<BookingTickets />} />
             <Route path='profile' element={<Profile />} />

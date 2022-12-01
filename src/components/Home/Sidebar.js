@@ -4,7 +4,7 @@ import { FaTimes } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeSideBar, openSideBar } from '../../features/uiSlice';
 import Cinema from './Cinema';
-import bg from '../../assets/pattern.png';
+
 import ticket from '../../assets/ticket-edited.png';
 
 const Sidebar = ({ cinemas }) => {
@@ -105,7 +105,9 @@ const Wrapper = styled.div`
     width: 85rem;
     height: 100%;
     z-index: 99;
-    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
     display: grid;
     grid-template-rows: auto 1fr auto;
     row-gap: 1rem;
@@ -122,7 +124,7 @@ const Wrapper = styled.div`
     height: 100%;
     top: 0;
     left: 0%;
-    background: url(${bg});
+    
     opacity: 0.3;
     transform: skewX(15deg);
   }

@@ -5,7 +5,7 @@ export const Chatbot = () => {
 
     (function(d, m){
         var kommunicateSettings = 
-            {"appId":"cdfd5f6062a5f9d693302028aad6a9b3","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            {"appId":"ff0a3c203f18069e02f916fa08ce665","popupWidget":true,"automaticChatOpenOnNavigation":true};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);

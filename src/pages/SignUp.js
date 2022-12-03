@@ -64,7 +64,7 @@ const SignUp = () => {
         >
           <Form.Item
             name={['user', 'taiKhoan']}
-            label='Tên Tài Khoản'
+            label='Tài Khoản'
             rules={[
               {
                 required: true,

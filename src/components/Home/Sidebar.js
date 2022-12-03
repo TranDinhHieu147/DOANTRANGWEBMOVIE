@@ -52,7 +52,6 @@ const Wrapper = styled.div`
     bottom: 6rem;
     left: 1rem;
     z-index: 99;
-    /* font-size: 2.5rem; */
     width: 5rem;
     background: transparent;
     border-color: transparent;

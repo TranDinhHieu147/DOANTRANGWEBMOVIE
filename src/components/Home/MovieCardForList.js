@@ -13,7 +13,7 @@ const MovieCardForList = ({ movie }) => {
   return (
     <Wrapper>
       <div className='movie-card' style={{ backgroundImage: `url(${movie.hinhAnh})` }}>
-        <Button onClick={() => navigate(`movies/${movie.maPhim}`)}>Đặt Vé</Button>
+        <Button onClick={() => navigate(`movies/${movie.maPhim}`)}>Thông tin phim</Button>
 
         <OutlineButton onClick={() => dispatch(openModal(movie.trailer))}>
           Trailer

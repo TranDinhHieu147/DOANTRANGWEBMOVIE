@@ -172,6 +172,7 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: end;
+    background-color: var(--primary-black);
   }
   svg {
     font-size: 1.2rem;

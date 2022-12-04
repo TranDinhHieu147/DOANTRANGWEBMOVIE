@@ -14,7 +14,7 @@ const MovieCard = ({ movie }) => {
         className='movie-card'
         style={{ backgroundImage: `url(${movie.hinhAnh})` }}
       >
-        <Button onClick={() => navigate(`movies/${movie.maPhim}`)}>Đặt Vé</Button>
+        <Button onClick={() => navigate(`movies/${movie.maPhim}`)}>Thông tin</Button>
 
         <OutlineButton onClick={() => dispatch(openModal(movie.trailer))}>
           Trailer

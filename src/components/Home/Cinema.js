@@ -134,6 +134,7 @@ const Cinema = ({ cinemas }) => {
 
 const Wrapper = styled.div`
   padding-left: 1rem;
+  
   .logo-container {
     display: flex;
     .logo {
